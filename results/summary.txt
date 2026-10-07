@@ -1,0 +1,10 @@
+At load 0.9, overestimation <= 3x, 20 replications:
+  average wait   FCFS 1070  EASY 133  (88% lower)
+  utilization    FCFS 79.2%  EASY 84.3%
+  max wait       FCFS 2360  EASY 1673
+EASY average / max wait by overestimation factor at that load:
+  1x: avg 167, max 1443
+  2x: avg 138, max 1594
+  3x: avg 133, max 1673
+  5x: avg 131, max 1735
+  10x: avg 128, max 1873
